@@ -1,0 +1,14 @@
+{
+  "worker": "bower-power",
+  "main_module": "worker.js",
+  "entry": "src/worker.js",
+  "compatibility_date": "2026-11-26",
+  "compatibility_flags": [],
+  "bindings": [
+    {
+      "type": "d1",
+      "name": "DB",
+      "id": "02716e0e-4339-4bd2-aa80-852e1d6adb5c"
+    }
+  ]
+}
