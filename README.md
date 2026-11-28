@@ -40,4 +40,4 @@ Cloudflare D1 is the source of truth for trips, players, and games. Deployments 
 
 ## Current workflow
 
-Direct commits to main followed by a manual deployment from that commit. Automatic Cloudflare Git builds are not configured yet. No PRs.
+Direct commits to main trigger Cloudflare Workers Builds, configured to run `node scripts/check.mjs` and `node scripts/deploy.mjs`. Native build verification is pending. Manual deployment from the exact GitHub commit remains the fallback. No PRs.
